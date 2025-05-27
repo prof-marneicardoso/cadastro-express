@@ -1,0 +1,12 @@
+[
+  {
+    "date": "27/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei Cardoso",
+      "email": "prof.marneicardoso@gmail.com",
+      "senha": "123456789"
+    }
+  }
+]
