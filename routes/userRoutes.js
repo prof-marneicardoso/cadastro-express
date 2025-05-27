@@ -2,20 +2,22 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import bcrypt from "bcrypt";
-// import { uuidv4 as uid } from "uuid";
 import { v4 as uuidv4 } from "uuid";
-// const { v4: uuidv4 } = require('uuid');
+import { fileURLToPath } from "url";
 
 const router = express.Router();
-const usersFile = path.join(_dirname, "../data/user.json");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-// Se o arquivo não existir, cria
+const usersFile = path.join(__dirname, "../data/users.json");
+
+// Cria o arquivo users.json se necessário
 if (!fs.existsSync(usersFile)) {
     fs.writeFileSync(usersFile, "[]");
 }
 
 router.post("/", async (request, response) => {
-    // Desestrutração dos dados enviados na requisição
+    // Desestruturação dos dados enviados na requisição
     const { nome, email, senha } = request.body;
 
     // Verifica os campos em branco
@@ -31,9 +33,9 @@ router.post("/", async (request, response) => {
         const users = JSON.parse(data);
 
         // Verifica se o E-mail já existe
-        const isEmail = users.find((user) => user.email === email);
+        const emailExists = users.find((user) => user.email === email);
 
-        if (isEmail) {
+        if (emailExists) {
             return response.status(409).json({
                 erro: "E-mail já cadastrado"
             });
@@ -44,7 +46,6 @@ router.post("/", async (request, response) => {
 
         // Cria um novo usuário
         const newUser = {
-            // id: uid(),
             id: uuidv4,
             name: nome,
             email: email,
@@ -59,7 +60,7 @@ router.post("/", async (request, response) => {
         // Salva no arquivo
         fs.writeFileSync(usersFile, JSON.stringify(users, null, 2));
 
-        // Remove a senha do retorno
+        // Remove a senha do retorno (não mostra a senha na tela)
         const { senha: _, ...userWithoutPassword } = newUser;
 
         response.status(201).json({
