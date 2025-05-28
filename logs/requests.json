@@ -4,8 +4,348 @@
     "method": "POST",
     "url": "/api/users",
     "body": {
-      "nome": "Marnei Cardoso",
+      "nome": "Marnei",
+      "email": "marneicardoso.prof@gmail.com",
+      "senha": "123456789"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "marneicardoso.prof@gmail.com",
+      "senha": "123456789"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "marneicardoso@gmail.com",
+      "senha": "12345678"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "marneicardoso.dev@gmail.com",
+      "senha": "12345678"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "admin@empresa.com.br",
+      "senha": "1234567"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "admin@empresa.com.br",
+      "senha": "123456"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "admin@empresa.com.br",
+      "senha": "123456"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
       "email": "prof.marneicardoso@gmail.com",
+      "senha": "1234567"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "prof.marneicardoso@gmail.com",
+      "senha": "234567"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "prof.marneicardoso@gmail.com",
+      "senha": "123456"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "prof.marneicardoso@gmail.com",
+      "senha": "1234567"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "admin2@empresa.com.br",
+      "senha": "12345"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "admin2@empresa.com.br",
+      "senha": "12345"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "admin2@empresa.com.br",
+      "senha": ""
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "",
+      "email": "",
+      "senha": ""
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "",
+      "email": "",
+      "senha": ""
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "",
+      "email": "",
+      "senha": ""
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "",
+      "email": "",
+      "senha": ""
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "",
+      "email": "",
+      "senha": ""
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "",
+      "email": "",
+      "senha": ""
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "",
+      "email": "",
+      "senha": ""
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "prof.marneicardoso@gmail.com",
+      "senha": "12345"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei",
+      "email": "prof.marneicardoso@gmail.com",
+      "senha": "12345"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Teste",
+      "email": "teste@gmail.com",
+      "senha": "12345"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei Cardoso",
+      "email": "teste2@email.com",
+      "senha": "12345"
+    }
+  },
+  {
+    "date": "28/05/2025",
+    "method": "OPTIONS",
+    "url": "/api/users"
+  },
+  {
+    "date": "28/05/2025",
+    "method": "POST",
+    "url": "/api/users",
+    "body": {
+      "nome": "Marnei Cardoso",
+      "email": "teste2@email.com",
       "senha": "12345"
     }
   }

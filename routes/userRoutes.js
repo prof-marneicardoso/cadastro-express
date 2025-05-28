@@ -1,5 +1,5 @@
 import express from "express";
-import fs from "fs";
+import fs, { stat } from "fs";
 import path from "path";
 import bcrypt from "bcrypt";
 import { v4 as uuidv4 } from "uuid";
@@ -25,14 +25,15 @@ function ensureUserFile() {
 
 router.post("/", async (request, response) => {
     // Desestruturação dos dados enviados na requisição
-    const { nome, email, senha } = request.body;    
-
+    const { nome, email, senha } = request.body;
+    
     ensureUserFile();
 
     // Verifica os campos em branco
     if (!nome || !email || !senha) {
         return response.status(400).json({
-            erro: "Nome, E-mail e Senha são obrigatórios"
+            // erro: "Nome, E-mail e Senha são obrigatórios",
+            status: 400
         });
     }
 
@@ -46,7 +47,8 @@ router.post("/", async (request, response) => {
 
         if (emailExists) {
             return response.status(409).json({
-                erro: "E-mail já cadastrado"
+                // erro: "E-mail já cadastrado",
+                status: 409
             });
         }
 
@@ -76,14 +78,16 @@ router.post("/", async (request, response) => {
         const { senha: _, ...userWithoutPassword } = newUser;
 
         response.status(201).json({
-            mensagem: "Usuário cadastrado com sucesso!",
-            usuario: userWithoutPassword
+            // mensagem: "Usuário cadastrado com sucesso!",
+            // usuario: userWithoutPassword
+            status: 201
         });
 
     } catch(erro) {
-        console.error("Erro ao criar usuário:", erro);
+        // console.error("Erro ao criar usuário:", erro);
         response.status(500).json({
-            erro: "Erro ao criar usuário."
+            // erro: "Erro ao criar usuário."
+            status: 500
         });
     }
 });

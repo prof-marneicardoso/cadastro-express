@@ -1,9 +1,65 @@
 [
   {
-    "uid": "3ee58b51-2233-44e9-b318-cc88b88e909a",
-    "name": "Marnei Cardoso",
+    "uid": "a181c187-de5e-4ceb-9db2-371d49f360c0",
+    "name": "Marnei",
     "email": "prof.marneicardoso@gmail.com",
-    "password": "$2b$10$NSJRrwD6N.88/VdJwow5eOaSawM8TbBjTiwzh5BJJnqq9uycRj8M.",
+    "password": "$2b$10$rUvsmZzUSjuiZe2EklIASu6P262NzImYSaBa2EzDgDJEGfxnddO26",
+    "createdAt": "28/05/2025",
+    "updatedAt": "28/05/2025"
+  },
+  {
+    "uid": "8f901ecf-3cd6-4c92-8700-e9079a9c242c",
+    "name": "Marnei",
+    "email": "marneicardoso.prof@gmail.com",
+    "password": "$2b$10$maHhAuHChiBC4HVm0bIA2eaPL4pAsYfjR75vGtPI4HFleN3/NAbbq",
+    "createdAt": "28/05/2025",
+    "updatedAt": "28/05/2025"
+  },
+  {
+    "uid": "d964727b-ccd4-4ccb-8248-62da89ad2538",
+    "name": "Marnei",
+    "email": "marneicardoso@gmail.com",
+    "password": "$2b$10$Gor8Q478r5BIvwBW80gTAu0HE0aI7WdHw45RWU94RKF0gK5tpUUwC",
+    "createdAt": "28/05/2025",
+    "updatedAt": "28/05/2025"
+  },
+  {
+    "uid": "8ec48392-5d22-49d2-8a47-853b12114822",
+    "name": "Marnei",
+    "email": "marneicardoso.dev@gmail.com",
+    "password": "$2b$10$9nTAM.mBBh2fVKT8.Jz6OumS6BiToxc3FKnSDpait8XXkedA9f6k6",
+    "createdAt": "28/05/2025",
+    "updatedAt": "28/05/2025"
+  },
+  {
+    "uid": "ab49fb4f-12d1-4be2-b9a0-6213e35fb0f2",
+    "name": "Marnei",
+    "email": "admin@empresa.com.br",
+    "password": "$2b$10$Lm8Z42t.gL2xhMZ29WieZ.qCJ/KSOUI/35xJuJgSWZv74k1Vdbgbe",
+    "createdAt": "28/05/2025",
+    "updatedAt": "28/05/2025"
+  },
+  {
+    "uid": "03f3d04e-ce45-4442-b42d-4ac2eb304bb5",
+    "name": "Marnei",
+    "email": "admin2@empresa.com.br",
+    "password": "$2b$10$8KQNq27mmRLSVu1t5sN3deJtTOubbfcqRrMFdHbTmiLUo4OLL3GIG",
+    "createdAt": "28/05/2025",
+    "updatedAt": "28/05/2025"
+  },
+  {
+    "uid": "8b380961-4530-4683-a999-a25e396d4fc6",
+    "name": "Teste",
+    "email": "teste@gmail.com",
+    "password": "$2b$10$gCt/TuImqp3DXRzinlt8ZOT.d60ce5qtaC2JCnlrSc3wUGxXSNyHW",
+    "createdAt": "28/05/2025",
+    "updatedAt": "28/05/2025"
+  },
+  {
+    "uid": "3641221f-b94d-45e9-ab5b-3d8beddfa877",
+    "name": "Marnei Cardoso",
+    "email": "teste2@email.com",
+    "password": "$2b$10$raL1Hzz0GYXg7l6dLqHANe88XA4BMqRe8hG0jCX5gTykcR5lnlM36",
     "createdAt": "28/05/2025",
     "updatedAt": "28/05/2025"
   }
